@@ -26,16 +26,16 @@ var postorderTraversal = function(root) {
     while(stack.length){
         const currentNode = stack[stack.length - 1];
 
-        console.log('currentNode ', currentNode)
-        console.log('stack', stack)
-        console.log('previousNode', previousNode)
+        // console.log('currentNode ', currentNode)
+        // console.log('stack', stack)
+        // console.log('previousNode', previousNode)
 
 
-        console.log('currentNode.left', currentNode.left)
-        console.log('currentNode.right', currentNode.right)
+        // console.log('currentNode.left', currentNode.left)
+        // console.log('currentNode.right', currentNode.right)
 
-        console.log('previousNode.left', previousNode ? previousNode.left : '')
-        console.log('previousNode.right', previousNode ? previousNode.right : '')
+        // console.log('previousNode.left', previousNode ? previousNode.left : '')
+        // console.log('previousNode.right', previousNode ? previousNode.right : '')
 
 
         if(!previousNode || previousNode.left ===currentNode || previousNode.right === currentNode){
